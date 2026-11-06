@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Thanks, Obama. A politician at a podium points at someone offscreen while three drinks are raised in a toast." width="100%">
+  <img src="banner.svg" alt="Thanks, Obama. A retro atomic-age politician at a podium points at someone offscreen while a martini, a coffee and a soda are raised in a toast." width="100%">
 </p>
 
 # Thanks, Obama.
