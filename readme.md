@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="Thanks, Obama. A politician at a podium points at someone offscreen while three drinks are raised in a toast." width="100%">
+</p>
+
 # Thanks, Obama.
 
 A drinking game for watching politicians blame someone else, promise everything, and answer nothing.

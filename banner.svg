@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Thanks, Obama. A politician at a podium points at someone offscreen while three drinks are raised in a toast.">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d3a"/>
+      <stop offset="1" stop-color="#132d57"/>
+    </linearGradient>
+    <linearGradient id="podium" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#7a5230"/>
+      <stop offset="1" stop-color="#4a2f1b"/>
+    </linearGradient>
+    <linearGradient id="beer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc93c"/>
+      <stop offset="1" stop-color="#e89a00"/>
+    </linearGradient>
+    <pattern id="stripes" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+      <rect width="40" height="20" fill="#b22234" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="420" fill="url(#sky)"/>
+  <rect width="1200" height="420" fill="url(#stripes)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="60" cy="40" r="2"/><circle cx="140" cy="90" r="1.5"/><circle cx="230" cy="30" r="2"/>
+    <circle cx="520" cy="25" r="1.5"/><circle cx="610" cy="70" r="2"/><circle cx="760" cy="30" r="1.5"/>
+    <circle cx="880" cy="60" r="2"/><circle cx="1010" cy="28" r="1.5"/><circle cx="1150" cy="75" r="2"/>
+    <circle cx="1100" cy="150" r="1.5"/><circle cx="470" cy="120" r="1.5"/>
+  </g>
+
+  <!-- stage floor -->
+  <rect x="0" y="360" width="1200" height="60" fill="#0a1326"/>
+
+  <!-- ===== politician at podium (generic silhouette) ===== -->
+  <g transform="translate(70,0)">
+    <!-- body -->
+    <path d="M110 250 Q110 200 160 195 L200 195 Q250 200 250 250 L250 300 L110 300 Z" fill="#2b3550" stroke="#8fa3c7" stroke-width="3"/>
+    <!-- tie -->
+    <path d="M178 197 L182 197 L188 240 L180 252 L172 240 Z" fill="#b22234"/>
+    <path d="M168 197 L180 215 L192 197 Z" fill="#f2f2f2"/>
+    <!-- head -->
+    <circle cx="180" cy="160" r="38" fill="#3b4763" stroke="#8fa3c7" stroke-width="3"/>
+    <!-- pointing arm -->
+    <path d="M240 215 L330 175" stroke="#2b3550" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="336" cy="172" r="13" fill="#3b4763" stroke="#8fa3c7" stroke-width="2"/>
+    <path d="M345 168 L372 158" stroke="#3b4763" stroke-width="9" stroke-linecap="round"/>
+    <!-- motion lines from the finger -->
+    <g stroke="#ffd166" stroke-width="4" stroke-linecap="round">
+      <line x1="385" y1="140" x2="405" y2="128"/>
+      <line x1="390" y1="156" x2="414" y2="152"/>
+      <line x1="386" y1="172" x2="406" y2="178"/>
+    </g>
+    <!-- podium -->
+    <path d="M80 270 L280 270 L265 365 L95 365 Z" fill="url(#podium)"/>
+    <rect x="70" y="258" width="220" height="16" rx="3" fill="#8a6038"/>
+    <!-- seal -->
+    <circle cx="180" cy="315" r="28" fill="#0b1d3a" stroke="#ffd166" stroke-width="3"/>
+    <text x="180" y="311" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#ffd166" font-weight="bold">NOT MY</text>
+    <text x="180" y="323" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#ffd166" font-weight="bold">FAULT</text>
+    <!-- microphones -->
+    <path d="M150 258 Q140 240 140 222" stroke="#999" stroke-width="3" fill="none"/>
+    <path d="M210 258 Q220 240 220 222" stroke="#999" stroke-width="3" fill="none"/>
+    <rect x="134" y="210" width="12" height="16" rx="6" fill="#555"/>
+    <rect x="214" y="210" width="12" height="16" rx="6" fill="#555"/>
+  </g>
+
+  <!-- speech bubble -->
+  <g transform="translate(20,0)">
+    <path d="M40 30 H330 Q350 30 350 50 V100 Q350 120 330 120 H190 L160 150 L165 120 H40 Q20 120 20 100 V50 Q20 30 40 30 Z" fill="#ffffff"/>
+    <text x="185" y="70" text-anchor="middle" font-family="'Comic Sans MS', 'Chalkboard SE', 'Trebuchet MS', sans-serif" font-size="22" font-weight="bold" fill="#0b1d3a">Look, this mess was</text>
+    <text x="185" y="100" text-anchor="middle" font-family="'Comic Sans MS', 'Chalkboard SE', 'Trebuchet MS', sans-serif" font-size="22" font-weight="bold" fill="#b22234">ALL HIS FAULT.</text>
+  </g>
+
+  <!-- ===== title ===== -->
+  <g font-family="Impact, 'Arial Black', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="815" y="175" font-size="104" fill="#0a1326" opacity="0.6" transform="translate(5,5)">THANKS, OBAMA.</text>
+    <text x="815" y="175" font-size="104" fill="#ffffff" stroke="#0a1326" stroke-width="3" paint-order="stroke">THANKS, OBAMA.</text>
+  </g>
+  <text x="815" y="218" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="28" fill="#ffd166">A drinking game for our time.</text>
+
+  <!-- ===== raised drinks ===== -->
+  <g transform="translate(655,240)">
+    <!-- beer mug -->
+    <g transform="rotate(-12 50 60)">
+      <rect x="20" y="30" width="60" height="80" rx="6" fill="url(#beer)" stroke="#ffffff" stroke-width="3"/>
+      <path d="M80 48 Q105 48 105 70 Q105 92 80 92" fill="none" stroke="#ffffff" stroke-width="6"/>
+      <path d="M16 34 Q22 14 38 22 Q48 8 62 20 Q76 10 84 30 Z" fill="#fffaf0"/>
+    </g>
+    <!-- coffee mug -->
+    <g transform="translate(130,10)">
+      <rect x="20" y="40" width="58" height="70" rx="8" fill="#e9ecef" stroke="#ffffff" stroke-width="3"/>
+      <path d="M78 55 Q100 55 100 75 Q100 95 78 95" fill="none" stroke="#e9ecef" stroke-width="6"/>
+      <rect x="24" y="46" width="50" height="10" rx="3" fill="#6f4e37"/>
+      <g stroke="#ffffff" stroke-width="3" fill="none" opacity="0.7" stroke-linecap="round">
+        <path d="M38 34 Q32 24 40 14"/><path d="M54 34 Q48 24 56 14"/>
+      </g>
+      <text x="49" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0b1d3a">#1 VOTER</text>
+    </g>
+    <!-- seltzer glass -->
+    <g transform="translate(260,0) rotate(12 40 60)">
+      <path d="M15 25 L75 25 L68 112 L22 112 Z" fill="#9ad1ff" opacity="0.55" stroke="#ffffff" stroke-width="3"/>
+      <g fill="#ffffff" opacity="0.85">
+        <circle cx="35" cy="90" r="3"/><circle cx="50" cy="70" r="2.5"/><circle cx="42" cy="52" r="2"/>
+        <circle cx="58" cy="95" r="2"/><circle cx="55" cy="45" r="2.5"/>
+      </g>
+      <circle cx="62" cy="25" r="14" fill="#a3e635" stroke="#ffffff" stroke-width="2"/>
+      <path d="M62 11 L62 39 M48 25 L76 25" stroke="#65a30d" stroke-width="2"/>
+    </g>
+    <!-- clink sparkles -->
+    <g fill="#ffd166">
+      <path d="M118 20 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+      <path d="M248 14 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 z"/>
+    </g>
+  </g>
+
+  <!-- ===== news ticker ===== -->
+  <rect x="0" y="380" width="1200" height="40" fill="#b22234"/>
+  <rect x="0" y="380" width="150" height="40" fill="#ffffff"/>
+  <text x="75" y="407" text-anchor="middle" font-family="Impact, 'Arial Black', Arial, sans-serif" font-size="24" fill="#b22234">BREAKING</text>
+  <text x="170" y="407" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Nothing actually broke  •  Politician blames predecessor  •  Everyone drinks  •  Pace yourself, drink water</text>
+</svg>
